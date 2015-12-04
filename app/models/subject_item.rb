@@ -1,4 +1,5 @@
 class SubjectItem < ActiveRecord::Base
+  NAME = %w(English Polish French Spanish Russian)
   has_many :participations, dependent: :destroy
   has_many :students, through: :participations
   has_many :subject_item_notes
