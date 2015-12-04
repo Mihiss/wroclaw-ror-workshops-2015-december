@@ -6,6 +6,7 @@ before_script:
   - cp config/database.yml.travis config/database.yml
 script:
   - RAILS_ENV=test rake db:migrate
+  - rake db:test:prepare
 addons:
   postgresql: '9.3'
 services:
