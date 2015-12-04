@@ -5,4 +5,5 @@ Rails.application.routes.draw do
 
   get 'students' => 'students#index'
   get 'teachers' => 'teachers#index'
+  get 'report/subjects' => 'reports#_subject_item'
 end
