@@ -5,6 +5,10 @@ Rails.application.routes.draw do
     get :subjects
   end
 
+  resources :teachers do
+   get :subjects
+ end
+
   root to: 'visitors#index'
 
   get 'report/subjects' => 'reports#_subject_item'
