@@ -1,3 +1,19 @@
+Heroku
+-------------
+[Heroku build]https://netguru-workshops-wroclaw-2015.herokuapp.com
+
+Travis
+-------------
+[![Build Status](https://travis-ci.org/Mihiss/wroclaw-ror-workshops-2015-december.svg?branch=master)](https://travis-ci.org/Mihiss/wroclaw-ror-workshops-2015-december)
+
+Notes
+-------------
+- Sadly I couldn't find a solution to a bcrypt error.
+- I've found that it's a bad idea to develop RoR app on Windows :)
+- I had classes at college on saturday and sunday, so it was too little time for me (2 days).
+- I've learned a lot, so thank you!
+
+
 RoR Workshops
 ================
 
