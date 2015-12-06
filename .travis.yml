@@ -1,13 +1,10 @@
 rvm:
   - 2.2.3
 before_script:
-  - psql -c 'CREATE USER workshops WITH SUPERUSER;' -U postgres
+  - psql -c 'CREATE USER workshops;' -U postgres
+  - psql -c 'ALTER USER workshops WITH SUPERUSER;' -U postgres
   - psql -c 'create database workshops_test;' -U postgres
   - cp config/database.yml.sample config/database.yml
-script:
-  - RAILS_ENV=test rake db:migrate
-  - rake db:test:prepare
-  - RAILS_ENV=test bundle exec rspec
 addons:
   postgresql: '9.3'
 services:
