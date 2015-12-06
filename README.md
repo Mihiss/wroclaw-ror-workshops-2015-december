@@ -1,6 +1,6 @@
 Heroku
 -------------
-[Heroku build]https://netguru-workshops-wroclaw-2015.herokuapp.com
+[Heroku build](https://netguru-workshops-wroclaw-2015.herokuapp.com)
 
 Travis
 -------------
@@ -13,6 +13,9 @@ Notes
 - I had classes at college on saturday and sunday, so it was too little time for me (2 days).
 - I've learned a lot, so thank you!
 
+
+
+Original README:
 
 RoR Workshops
 ================
